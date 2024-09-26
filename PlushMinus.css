@@ -1,0 +1,19 @@
+.r4{
+    text-align: center;
+    width: 15%;
+    height: 20%;
+    background-color: aquamarine;
+    color: black;
+    font-size: 100px;
+    padding: 25px;
+    border-radius: 100%;
+    margin: auto;
+}
+.b{
+    margin-left: 30%;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: burlywood;
+    color: blue;
+    border-radius: 20px;
+}

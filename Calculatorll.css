@@ -1,0 +1,22 @@
+body{
+    background-color:cyan ;
+}
+.c>.r1{
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.c>button{
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 5px 40px;
+    font-size: 20px;
+    background-color: rgb(64, 177, 105);
+    color: blue;
+    border-radius: 20px;
+}
+/* .c{
+    margin-left: 30%;
+} */

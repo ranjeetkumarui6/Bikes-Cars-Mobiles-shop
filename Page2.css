@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+
+}
+.r1{
+   
+    background-color: maroon;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0PX;
+    z-index: 1;
+    margin-bottom: 60px;
+    position: fixed;
+ 
+
+}
+.r2{
+    background-color: cadetblue;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+   z-index: 2;
+}
+.r2>.c1{
+    min-width: 20%;
+    background-color: brown;
+    position: fixed;
+    padding-top: 60px;
+    min-height: 100%;
+
+}
+.r2>.c2{
+    width: 80%;
+    background-color:gray;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    margin-left: 20%;
+    margin-right: 0px;
+
+}
+.r2>.c2>.m1{
+    width: 20%;
+    margin: 1% 2.5% 1% 2.5%;
+    background-color: rgba(201, 189, 189, 0.685);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 20px;
+    transition: transform 2s;
+}
+.r2>.c2>.m1:hover{
+    width: 20%;
+    margin: 1% 2.5% 1% 2.5%;
+    background-color: rgba(201, 189, 189, 0.685);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 20px;
+transform: scale(1.1);
+box-shadow: 1rem;
+}
+.r2>.c1>ul{
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgb(170, 91, 30);
+    color: cyan;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 70%;
+
+}
+.r2>.c1>ol{
+    display: flex;
+    background-color: rgb(170, 91, 30);
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px;
+    color: lightblue;
+    
+
+}
+.r2>.c1>ul>li{
+    margin: 10px;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(176, 113, 64);
+    border-radius: 15px;
+
+
+}
+.r2>.c1>ul>li>a{
+    text-decoration: none;
+    color: cyan;
+
+}
+.r3{
+    width: 100%;
+    padding: 10px;
+    background-color: gainsboro;
+    color: rgb(124, 85, 85);
+    font-size: 20px;
+    text-align: center;
+ 
+}
+img{
+    width: 100%;
+    height: 220px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    
+}
+h4{
+    color: rgb(47, 71, 71);
+}
+button{
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 5px 11px;
+    color: aqua;
+    background-color: blue;
+    border-radius: 20px;
+}
+button:hover{
+    border: 2px solid rgb(114, 139, 78);
+    font-size: 15px;
+    padding: 5px 11px;
+    color: black;
+    background-color: rgb(44, 232, 232);
+    border-radius: 20px;
+}
